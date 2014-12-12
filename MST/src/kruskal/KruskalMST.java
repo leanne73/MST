@@ -22,7 +22,7 @@ public class KruskalMST {
 		}
 		System.out.println("Graph is: \n" + G + "\n ");
 		
-		//Algorithm from ch 23.2 of CLRS:
+		//Algorithm based on ch 23.2 of CLRS:
 		Set<Edge> A = new HashSet<Edge>();
 		//MakeSet is implicitly called for each vertex during their construction
 		Collections.sort(G.edges); 

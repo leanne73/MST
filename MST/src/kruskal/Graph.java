@@ -21,7 +21,7 @@ public class Graph {
 
 	/** Expects: Num of Vertices followed by a list of edges and their respective weights in the form v1,v2,w (meaning that w(v1, v2) = w).
 	  * Graph should be undirected.
-	  * ex: "4 1,2,3 2,3,5 3 3,0,4" would be a graph with 4 vertices [0..3] and edges where w(1,2)=3 ; w(2,3)=5 ; w(3,0)=4
+	  * ex: "4 1,2,3 2,3,5 3,0,4" would be a graph with 4 vertices [0..3] and edges where w(1,2)=3 ; w(2,3)=5 ; w(3,0)=4
 	  **/
 	public static Graph parseGraph(String graph) {
 		String[] g = graph.split(" ");

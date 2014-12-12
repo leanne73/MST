@@ -21,7 +21,7 @@ public class PrimMST {
 		}
 		System.out.println("Graph is: \n" + G + "\n ");
 
-		//Prim's algorithm from ch 23.2 of CLRS:
+		//Prim's algorithm based on ch 23.2 of CLRS:
 		//Lines 1-4 are done implicitly in the construction of the graph
 		PriorityQueue<Vertex> Q = new PriorityQueue<Vertex>(Arrays.asList(G.vertices));
 		while(!Q.isEmpty()){
